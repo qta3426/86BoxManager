@@ -117,7 +117,1086 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnApply.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnApply.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 11</value>
+  </data>
+  <data name="btnApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 11</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnOK.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 11</value>
+  </data>
+  <data name="btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbxShowConsole.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxShowConsole.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cbxShowConsole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 23</value>
+  </data>
+  <data name="cbxShowConsole.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="cbxShowConsole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 24</value>
+  </data>
+  <data name="cbxShowConsole.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cbxShowConsole.Text" xml:space="preserve">
+    <value>Enable 86Box console window</value>
+  </data>
+  <data name="&gt;&gt;cbxShowConsole.Name" xml:space="preserve">
+    <value>cbxShowConsole</value>
+  </data>
+  <data name="&gt;&gt;cbxShowConsole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxShowConsole.Parent" xml:space="preserve">
+    <value>gbxMisc</value>
+  </data>
+  <data name="&gt;&gt;cbxShowConsole.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDefaults.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnDefaults.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnDefaults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 11</value>
+  </data>
+  <data name="btnDefaults.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnDefaults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="btnDefaults.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnDefaults.Text" xml:space="preserve">
+    <value>Defaults</value>
+  </data>
+  <data name="&gt;&gt;btnDefaults.Name" xml:space="preserve">
+    <value>btnDefaults</value>
+  </data>
+  <data name="&gt;&gt;btnDefaults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDefaults.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;btnDefaults.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 284</value>
+  </data>
+  <data name="pnlBottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pnlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 52</value>
+  </data>
+  <data name="pnlBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Name" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimizeTray.Name" xml:space="preserve">
+    <value>cbxMinimizeTray</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimizeTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimizeTray.Parent" xml:space="preserve">
+    <value>gbxBehaviour</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimizeTray.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbxCloseTray.Name" xml:space="preserve">
+    <value>cbxCloseTray</value>
+  </data>
+  <data name="&gt;&gt;cbxCloseTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxCloseTray.Parent" xml:space="preserve">
+    <value>gbxBehaviour</value>
+  </data>
+  <data name="&gt;&gt;cbxCloseTray.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimize.Name" xml:space="preserve">
+    <value>cbxMinimize</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimize.Parent" xml:space="preserve">
+    <value>gbxBehaviour</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbxBehaviour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 141</value>
+  </data>
+  <data name="gbxBehaviour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>669, 86</value>
+  </data>
+  <data name="gbxBehaviour.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gbxBehaviour.Text" xml:space="preserve">
+    <value>Behaviour</value>
+  </data>
+  <data name="&gt;&gt;gbxBehaviour.Name" xml:space="preserve">
+    <value>gbxBehaviour</value>
+  </data>
+  <data name="&gt;&gt;gbxBehaviour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxBehaviour.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;gbxBehaviour.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl86BoxVer1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl86BoxVer1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 10pt, style=Bold</value>
+  </data>
+  <data name="lbl86BoxVer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 59</value>
+  </data>
+  <data name="lbl86BoxVer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lbl86BoxVer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 19</value>
+  </data>
+  <data name="lbl86BoxVer1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl86BoxVer1.Text" xml:space="preserve">
+    <value>&lt;status string goes here&gt;</value>
+  </data>
+  <data name="&gt;&gt;lbl86BoxVer1.Name" xml:space="preserve">
+    <value>lbl86BoxVer1</value>
+  </data>
+  <data name="&gt;&gt;lbl86BoxVer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl86BoxVer1.Parent" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;lbl86BoxVer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl86BoxVer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl86BoxVer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 59</value>
+  </data>
+  <data name="lbl86BoxVer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lbl86BoxVer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 19</value>
+  </data>
+  <data name="lbl86BoxVer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl86BoxVer.Text" xml:space="preserve">
+    <value>86Box version:</value>
+  </data>
+  <data name="&gt;&gt;lbl86BoxVer.Name" xml:space="preserve">
+    <value>lbl86BoxVer</value>
+  </data>
+  <data name="&gt;&gt;lbl86BoxVer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl86BoxVer.Parent" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;lbl86BoxVer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCFGdir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCFGdir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 93</value>
+  </data>
+  <data name="lblCFGdir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblCFGdir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 19</value>
+  </data>
+  <data name="lblCFGdir.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblCFGdir.Text" xml:space="preserve">
+    <value>VM path:</value>
+  </data>
+  <data name="&gt;&gt;lblCFGdir.Name" xml:space="preserve">
+    <value>lblCFGdir</value>
+  </data>
+  <data name="&gt;&gt;lblCFGdir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCFGdir.Parent" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;lblCFGdir.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtCFGdir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 90</value>
+  </data>
+  <data name="txtCFGdir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtCFGdir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>469, 25</value>
+  </data>
+  <data name="txtCFGdir.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCFGdir.Name" xml:space="preserve">
+    <value>txtCFGdir</value>
+  </data>
+  <data name="&gt;&gt;txtCFGdir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCFGdir.Parent" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;txtCFGdir.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtEXEdir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="txtEXEdir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtEXEdir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>469, 25</value>
+  </data>
+  <data name="txtEXEdir.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtEXEdir.Name" xml:space="preserve">
+    <value>txtEXEdir</value>
+  </data>
+  <data name="&gt;&gt;txtEXEdir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEXEdir.Parent" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;txtEXEdir.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnBrowse2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnBrowse2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 87</value>
+  </data>
+  <data name="btnBrowse2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnBrowse2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="btnBrowse2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnBrowse2.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse2.Name" xml:space="preserve">
+    <value>btnBrowse2</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse2.Parent" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblEXEdir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEXEdir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 26</value>
+  </data>
+  <data name="lblEXEdir.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblEXEdir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="lblEXEdir.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblEXEdir.Text" xml:space="preserve">
+    <value>86Box path:</value>
+  </data>
+  <data name="&gt;&gt;lblEXEdir.Name" xml:space="preserve">
+    <value>lblEXEdir</value>
+  </data>
+  <data name="&gt;&gt;lblEXEdir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEXEdir.Parent" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;lblEXEdir.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnBrowse1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnBrowse1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnBrowse1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 20</value>
+  </data>
+  <data name="btnBrowse1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnBrowse1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="btnBrowse1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnBrowse1.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse1.Name" xml:space="preserve">
+    <value>btnBrowse1</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse1.Parent" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gbxPaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="gbxPaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>669, 129</value>
+  </data>
+  <data name="gbxPaths.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gbxPaths.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="&gt;&gt;gbxPaths.Name" xml:space="preserve">
+    <value>gbxPaths</value>
+  </data>
+  <data name="&gt;&gt;gbxPaths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxPaths.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;gbxPaths.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>681, 233</value>
+  </data>
+  <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Name" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Parent" xml:space="preserve">
+    <value>tbcSettings</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxLogging.Name" xml:space="preserve">
+    <value>gbxLogging</value>
+  </data>
+  <data name="&gt;&gt;gbxLogging.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxLogging.Parent" xml:space="preserve">
+    <value>tabAdvanced</value>
+  </data>
+  <data name="&gt;&gt;gbxLogging.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbxMisc.Name" xml:space="preserve">
+    <value>gbxMisc</value>
+  </data>
+  <data name="&gt;&gt;gbxMisc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxMisc.Parent" xml:space="preserve">
+    <value>tabAdvanced</value>
+  </data>
+  <data name="&gt;&gt;gbxMisc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabAdvanced.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>681, 233</value>
+  </data>
+  <data name="tabAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabAdvanced.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="&gt;&gt;tabAdvanced.Name" xml:space="preserve">
+    <value>tabAdvanced</value>
+  </data>
+  <data name="&gt;&gt;tabAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAdvanced.Parent" xml:space="preserve">
+    <value>tbcSettings</value>
+  </data>
+  <data name="&gt;&gt;tabAdvanced.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub.Name" xml:space="preserve">
+    <value>lnkGithub</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;imgLogo.Name" xml:space="preserve">
+    <value>imgLogo</value>
+  </data>
+  <data name="&gt;&gt;imgLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLogo.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;imgLogo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblVersion1.Name" xml:space="preserve">
+    <value>lblVersion1</value>
+  </data>
+  <data name="&gt;&gt;lblVersion1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVersion1.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblVersion1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub2.Name" xml:space="preserve">
+    <value>lnkGithub2</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub2.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Name" xml:space="preserve">
+    <value>lblCopyright</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
+    <value>lblVersion</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Name" xml:space="preserve">
+    <value>lblDesc</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>681, 233</value>
+  </data>
+  <data name="tabAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;tabAbout.Name" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;tabAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAbout.Parent" xml:space="preserve">
+    <value>tbcSettings</value>
+  </data>
+  <data name="&gt;&gt;tabAbout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbcSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="tbcSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>689, 263</value>
+  </data>
+  <data name="tbcSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbcSettings.Name" xml:space="preserve">
+    <value>tbcSettings</value>
+  </data>
+  <data name="&gt;&gt;tbcSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbcSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbcSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbxMinimizeTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxMinimizeTray.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cbxMinimizeTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="cbxMinimizeTray.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="cbxMinimizeTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 24</value>
+  </data>
+  <data name="cbxMinimizeTray.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cbxMinimizeTray.Text" xml:space="preserve">
+    <value>Minimize 86Box Manager to tray icon</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimizeTray.Name" xml:space="preserve">
+    <value>cbxMinimizeTray</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimizeTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimizeTray.Parent" xml:space="preserve">
+    <value>gbxBehaviour</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimizeTray.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbxCloseTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxCloseTray.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cbxCloseTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 23</value>
+  </data>
+  <data name="cbxCloseTray.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="cbxCloseTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 24</value>
+  </data>
+  <data name="cbxCloseTray.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbxCloseTray.Text" xml:space="preserve">
+    <value>Close 86Box Manager to tray icon</value>
+  </data>
+  <data name="&gt;&gt;cbxCloseTray.Name" xml:space="preserve">
+    <value>cbxCloseTray</value>
+  </data>
+  <data name="&gt;&gt;cbxCloseTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxCloseTray.Parent" xml:space="preserve">
+    <value>gbxBehaviour</value>
+  </data>
+  <data name="&gt;&gt;cbxCloseTray.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbxMinimize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxMinimize.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cbxMinimize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 51</value>
+  </data>
+  <data name="cbxMinimize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="cbxMinimize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 24</value>
+  </data>
+  <data name="cbxMinimize.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cbxMinimize.Text" xml:space="preserve">
+    <value>Minimize 86Box Manager when a VM is started</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimize.Name" xml:space="preserve">
+    <value>cbxMinimize</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimize.Parent" xml:space="preserve">
+    <value>gbxBehaviour</value>
+  </data>
+  <data name="&gt;&gt;cbxMinimize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbxLogging.Name" xml:space="preserve">
+    <value>cbxLogging</value>
+  </data>
+  <data name="&gt;&gt;cbxLogging.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxLogging.Parent" xml:space="preserve">
+    <value>gbxLogging</value>
+  </data>
+  <data name="&gt;&gt;cbxLogging.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Name" xml:space="preserve">
+    <value>txtLogPath</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Parent" xml:space="preserve">
+    <value>gbxLogging</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse3.Name" xml:space="preserve">
+    <value>btnBrowse3</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse3.Parent" xml:space="preserve">
+    <value>gbxLogging</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbxLogging.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="gbxLogging.Size" type="System.Drawing.Size, System.Drawing">
+    <value>669, 93</value>
+  </data>
+  <data name="gbxLogging.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="gbxLogging.Text" xml:space="preserve">
+    <value>Logging</value>
+  </data>
+  <data name="&gt;&gt;gbxLogging.Name" xml:space="preserve">
+    <value>gbxLogging</value>
+  </data>
+  <data name="&gt;&gt;gbxLogging.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxLogging.Parent" xml:space="preserve">
+    <value>tabAdvanced</value>
+  </data>
+  <data name="&gt;&gt;gbxLogging.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbxLogging.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxLogging.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cbxLogging.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="cbxLogging.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="cbxLogging.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 24</value>
+  </data>
+  <data name="cbxLogging.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cbxLogging.Text" xml:space="preserve">
+    <value>Enable 86Box logging to file:</value>
+  </data>
+  <data name="&gt;&gt;cbxLogging.Name" xml:space="preserve">
+    <value>cbxLogging</value>
+  </data>
+  <data name="&gt;&gt;cbxLogging.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxLogging.Parent" xml:space="preserve">
+    <value>gbxLogging</value>
+  </data>
+  <data name="&gt;&gt;cbxLogging.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtLogPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 52</value>
+  </data>
+  <data name="txtLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 25</value>
+  </data>
+  <data name="txtLogPath.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Name" xml:space="preserve">
+    <value>txtLogPath</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Parent" xml:space="preserve">
+    <value>gbxLogging</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBrowse3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnBrowse3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 49</value>
+  </data>
+  <data name="btnBrowse3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnBrowse3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="btnBrowse3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnBrowse3.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse3.Name" xml:space="preserve">
+    <value>btnBrowse3</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse3.Parent" xml:space="preserve">
+    <value>gbxLogging</value>
+  </data>
+  <data name="&gt;&gt;btnBrowse3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbxGrid.Name" xml:space="preserve">
+    <value>cbxGrid</value>
+  </data>
+  <data name="&gt;&gt;cbxGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxGrid.Parent" xml:space="preserve">
+    <value>gbxMisc</value>
+  </data>
+  <data name="&gt;&gt;cbxGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxMisc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 105</value>
+  </data>
+  <data name="gbxMisc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>669, 57</value>
+  </data>
+  <data name="gbxMisc.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="gbxMisc.Text" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="&gt;&gt;gbxMisc.Name" xml:space="preserve">
+    <value>gbxMisc</value>
+  </data>
+  <data name="&gt;&gt;gbxMisc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxMisc.Parent" xml:space="preserve">
+    <value>tabAdvanced</value>
+  </data>
+  <data name="&gt;&gt;gbxMisc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbxGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxGrid.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="cbxGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="cbxGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="cbxGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 24</value>
+  </data>
+  <data name="cbxGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cbxGrid.Text" xml:space="preserve">
+    <value>Enable grid lines in virtual machines list</value>
+  </data>
+  <data name="&gt;&gt;cbxGrid.Name" xml:space="preserve">
+    <value>cbxGrid</value>
+  </data>
+  <data name="&gt;&gt;cbxGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxGrid.Parent" xml:space="preserve">
+    <value>gbxMisc</value>
+  </data>
+  <data name="&gt;&gt;cbxGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lnkGithub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkGithub.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="lnkGithub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 200</value>
+  </data>
+  <data name="lnkGithub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 19</value>
+  </data>
+  <data name="lnkGithub.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lnkGithub.Text" xml:space="preserve">
+    <value>https://github.com/86Box/86BoxManager</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub.Name" xml:space="preserve">
+    <value>lnkGithub</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="imgLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
@@ -147,7 +1226,249 @@
         bXjhzXoboPAhRxuXUs/iLSHMion5H/zTTj4Q0Z1KAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="imgLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 15</value>
+  </data>
+  <data name="imgLogo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="imgLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="imgLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="imgLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;imgLogo.Name" xml:space="preserve">
+    <value>imgLogo</value>
+  </data>
+  <data name="&gt;&gt;imgLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgLogo.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;imgLogo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblVersion1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVersion1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="lblVersion1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 83</value>
+  </data>
+  <data name="lblVersion1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 19</value>
+  </data>
+  <data name="lblVersion1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblVersion1.Text" xml:space="preserve">
+    <value>&lt;version goes here&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblVersion1.Name" xml:space="preserve">
+    <value>lblVersion1</value>
+  </data>
+  <data name="&gt;&gt;lblVersion1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVersion1.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblVersion1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lnkGithub2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkGithub2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="lnkGithub2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 177</value>
+  </data>
+  <data name="lnkGithub2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 19</value>
+  </data>
+  <data name="lnkGithub2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lnkGithub2.Text" xml:space="preserve">
+    <value>https://github.com/86Box/86Box</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub2.Name" xml:space="preserve">
+    <value>lnkGithub2</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub2.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkGithub2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCopyright.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCopyright.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="lblCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 111</value>
+  </data>
+  <data name="lblCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 57</value>
+  </data>
+  <data name="lblCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblCopyright.Text" xml:space="preserve">
+    <value>Copyright © 2018-2022 David Simunič
+Licensed under the MIT license. See the LICENSE file for
+license information and AUTHORS for a list of contributors.</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Name" xml:space="preserve">
+    <value>lblCopyright</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblCopyright.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="lblVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 83</value>
+  </data>
+  <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 19</value>
+  </data>
+  <data name="lblVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
+    <value>lblVersion</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDesc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="lblDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 55</value>
+  </data>
+  <data name="lblDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 19</value>
+  </data>
+  <data name="lblDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblDesc.Text" xml:space="preserve">
+    <value>A configuration manager for the 86Box emulator</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Name" xml:space="preserve">
+    <value>lblDesc</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblDesc.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 15pt, style=Bold</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 28</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>86Box Manager</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>tabAbout</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>709, 336</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>dlgSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

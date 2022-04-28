@@ -139,7 +139,7 @@
     <value>6</value>
   </data>
   <data name="cbxOpenCFG.Text" xml:space="preserve">
-    <value>Configure this virtual machine now</value>
+    <value>가상 머신 설정 바로하기</value>
   </data>
   <data name="&gt;&gt;cbxOpenCFG.Name" xml:space="preserve">
     <value>cbxOpenCFG</value>
@@ -172,7 +172,7 @@
     <value>8</value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
+    <value>취소</value>
   </data>
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
@@ -208,7 +208,7 @@
     <value>7</value>
   </data>
   <data name="btnAdd.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>추가</value>
   </data>
   <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
     <value>btnAdd</value>
@@ -238,7 +238,7 @@
     <value>8</value>
   </data>
   <data name="lblName.Text" xml:space="preserve">
-    <value>Name:</value>
+    <value>이름:</value>
   </data>
   <data name="&gt;&gt;lblName.Name" xml:space="preserve">
     <value>lblName</value>
@@ -268,7 +268,7 @@
     <value>9</value>
   </data>
   <data name="lblDesc.Text" xml:space="preserve">
-    <value>Description:</value>
+    <value>설명:</value>
   </data>
   <data name="&gt;&gt;lblDesc.Name" xml:space="preserve">
     <value>lblDesc</value>
@@ -352,7 +352,7 @@
     <value>12</value>
   </data>
   <data name="lblPath1.Text" xml:space="preserve">
-    <value>&lt;path goes here&gt;</value>
+    <value>&lt;경로&gt;</value>
   </data>
   <data name="&gt;&gt;lblPath1.Name" xml:space="preserve">
     <value>lblPath1</value>
@@ -382,7 +382,7 @@
     <value>13</value>
   </data>
   <data name="lblPath.Text" xml:space="preserve">
-    <value>Path:</value>
+    <value>경로:</value>
   </data>
   <data name="&gt;&gt;lblPath.Name" xml:space="preserve">
     <value>lblPath</value>
@@ -418,7 +418,7 @@
     <value>5</value>
   </data>
   <data name="cbxStartVM.Text" xml:space="preserve">
-    <value>Start this virtual machine now</value>
+    <value>가상 머신 바로 실행하기</value>
   </data>
   <data name="&gt;&gt;cbxStartVM.Name" xml:space="preserve">
     <value>cbxStartVM</value>
@@ -508,7 +508,7 @@
     <value>0</value>
   </data>
   <data name="cbxImport.Text" xml:space="preserve">
-    <value>Import VM files from:</value>
+    <value>가상 머신 파일 가져오기</value>
   </data>
   <data name="&gt;&gt;cbxImport.Name" xml:space="preserve">
     <value>cbxImport</value>
@@ -544,7 +544,7 @@
     <value>2</value>
   </data>
   <data name="btnBrowse.Text" xml:space="preserve">
-    <value>Browse...</value>
+    <value>열기...</value>
   </data>
   <data name="&gt;&gt;btnBrowse.Name" xml:space="preserve">
     <value>btnBrowse</value>
@@ -577,7 +577,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Add a virtual machine</value>
+    <value>가상 머신 추가</value>
   </data>
   <data name="&gt;&gt;tipLblPath1.Name" xml:space="preserve">
     <value>tipLblPath1</value>

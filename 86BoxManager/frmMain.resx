@@ -117,12 +117,291 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnEdit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnEdit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 12</value>
+  </data>
+  <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 30</value>
+  </data>
+  <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
   <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>429, 17</value>
   </metadata>
+  <data name="btnEdit.ToolTip" xml:space="preserve">
+    <value>Edit the properties of this virtual machine</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 12</value>
+  </data>
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="btnDelete.ToolTip" xml:space="preserve">
+    <value>Remove this virtual machine</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnStart.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStart.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 12</value>
+  </data>
+  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 30</value>
+  </data>
+  <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="btnStart.ToolTip" xml:space="preserve">
+    <value>Start this virtual machine</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
+    <value>btnStart</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lstVMs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="clmName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="clmName.Width" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="clmStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="clmStatus.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="clmDesc.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="clmDesc.Width" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="clmPath.Text" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="clmPath.Width" type="System.Int32, mscorlib">
+    <value>217</value>
+  </data>
   <metadata name="cmsVM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="startToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="startToolStripMenuItem.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="startToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Start this virtual machine</value>
+  </data>
+  <data name="configureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="configureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="configureToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Change configuration for this virtual machine</value>
+  </data>
+  <data name="pauseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="pauseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="pauseToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Pause this virtual machine</value>
+  </data>
+  <data name="resetCTRLALTDELETEToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="resetCTRLALTDELETEToolStripMenuItem.Text" xml:space="preserve">
+    <value>Send CTRL+ALT+DEL</value>
+  </data>
+  <data name="resetCTRLALTDELETEToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Send the CTRL+ALT+DEL keystroke to this virtual machine</value>
+  </data>
+  <data name="hardResetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="hardResetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hard reset</value>
+  </data>
+  <data name="hardResetToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Reset this virtual machine by simulating a power cycle</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 6</value>
+  </data>
+  <data name="killToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="killToolStripMenuItem.Text" xml:space="preserve">
+    <value>Kill</value>
+  </data>
+  <data name="killToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Kill this virtual machine</value>
+  </data>
+  <data name="wipeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="wipeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wipe</value>
+  </data>
+  <data name="wipeToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Delete configuration and nvr for this virtual machine</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 6</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Edit the properties of this virtual machine</value>
+  </data>
+  <data name="cloneToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="cloneToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clone</value>
+  </data>
+  <data name="cloneToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Clone this virtual machine</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="deleteToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Remove this virtual machine</value>
+  </data>
+  <data name="openFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="openFolderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open folder in Explorer</value>
+  </data>
+  <data name="openFolderToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Open the folder for this virtual machine in Windows Explorer</value>
+  </data>
+  <data name="openConfigFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="openConfigFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open config file</value>
+  </data>
+  <data name="openConfigFileToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Open the config file for this virtual machine</value>
+  </data>
+  <data name="createADesktopShortcutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 22</value>
+  </data>
+  <data name="createADesktopShortcutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create a desktop shortcut</value>
+  </data>
+  <data name="createADesktopShortcutToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Create a shortcut for this virtual machine on the desktop</value>
+  </data>
+  <data name="cmsVM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 302</value>
+  </data>
+  <data name="&gt;&gt;cmsVM.Name" xml:space="preserve">
+    <value>cmsVM</value>
+  </data>
+  <data name="&gt;&gt;cmsVM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lstVMs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="lstVMs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 48</value>
+  </data>
+  <data name="lstVMs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 413</value>
+  </data>
   <metadata name="img86box.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>109, 17</value>
   </metadata>
@@ -131,7 +410,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACW
-        DAAAAk1TRnQBSQFMAgEBAwEAAUABAQFAAQEBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        DAAAAk1TRnQBSQFMAgEBAwEAAVABAQFQAQEBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
         AwABEAMAAQEBAAEgBgABEC4AA4AB/wOAAf85AAGAAQAB/wEAAYABAAH/OQAD/wEAA/9sAAOAAf8DgAH/
         A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/IQABgAEAAf8BAAGAAQAB/wEAAYABAAH/AQABgAEAAf8BAAGA
         AQAB/wEAAYABAAH/AQABgAEAAf8BAAGAAQAB/yEAA/8BAAP/AQAD/wEAA/8BAAP/AQAD/wEAA/8BAAP/
@@ -187,16 +466,249 @@
         AQMCAAHgAQcB4AEHAeABBwIAAfABDwHwAQ8B8AEPAgAB/gF/Af4BfwH+AX8CAAs=
 </value>
   </data>
+  <data name="lstVMs.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lstVMs.Name" xml:space="preserve">
+    <value>lstVMs</value>
+  </data>
+  <data name="&gt;&gt;lstVMs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstVMs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lstVMs.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 30</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnAdd.ToolTip" xml:space="preserve">
+    <value>Add a new or an existing virtual machine</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnConfigure.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnConfigure.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnConfigure.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnConfigure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 12</value>
+  </data>
+  <data name="btnConfigure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="btnConfigure.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnConfigure.Text" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="btnConfigure.ToolTip" xml:space="preserve">
+    <value>Change the configuration of this virtual machine</value>
+  </data>
+  <data name="&gt;&gt;btnConfigure.Name" xml:space="preserve">
+    <value>btnConfigure</value>
+  </data>
+  <data name="&gt;&gt;btnConfigure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConfigure.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnConfigure.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <metadata name="imgStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>109, 17</value>
   </metadata>
+  <data name="imgStatus.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="btnPause.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnPause.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnPause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 12</value>
+  </data>
+  <data name="btnPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 30</value>
+  </data>
+  <data name="btnPause.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnPause.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="btnPause.ToolTip" xml:space="preserve">
+    <value>Pause this virtual machine</value>
+  </data>
+  <data name="&gt;&gt;btnPause.Name" xml:space="preserve">
+    <value>btnPause</value>
+  </data>
+  <data name="&gt;&gt;btnPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPause.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPause.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnCtrlAltDel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnCtrlAltDel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnCtrlAltDel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnCtrlAltDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 12</value>
+  </data>
+  <data name="btnCtrlAltDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="btnCtrlAltDel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnCtrlAltDel.Text" xml:space="preserve">
+    <value>C+A+D</value>
+  </data>
+  <data name="btnCtrlAltDel.ToolTip" xml:space="preserve">
+    <value>Send the CTRL+ALT+DEL keystroke to this virtual machine</value>
+  </data>
+  <data name="&gt;&gt;btnCtrlAltDel.Name" xml:space="preserve">
+    <value>btnCtrlAltDel</value>
+  </data>
+  <data name="&gt;&gt;btnCtrlAltDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCtrlAltDel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCtrlAltDel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnReset.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnReset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnReset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 12</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnReset.ToolTip" xml:space="preserve">
+    <value>Reset this virtual machine by simulating a power cycle</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <metadata name="trayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>215, 17</value>
   </metadata>
   <metadata name="cmsTrayIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>310, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="open86BoxManagerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="open86BoxManagerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show 86Box Manager</value>
+  </data>
+  <data name="open86BoxManagerToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Restore the 86Box Manager window</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="settingsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Open 86Box Manager settings</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="exitToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Close 86Box Manager</value>
+  </data>
+  <data name="cmsTrayIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 76</value>
+  </data>
+  <data name="&gt;&gt;cmsTrayIcon.Name" xml:space="preserve">
+    <value>cmsTrayIcon</value>
+  </data>
+  <data name="&gt;&gt;cmsTrayIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="trayIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAkAAAAAAAEAIACkTAAAlgAAABAQAAABACAAaAQAADpNAAAUFAAAAQAgALgGAACiUQAAGBgAAAEA
@@ -2621,12 +3133,93 @@
         AAAAAAP/////wAAAAAAAAAAAAAAD/w==
 </value>
   </data>
+  <data name="trayIcon.Text" xml:space="preserve">
+    <value>86Box Manager</value>
+  </data>
   <metadata name="statusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>519, 17</value>
+  </metadata>
+  <data name="lblVMCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 17</value>
+  </data>
+  <data name="lblVMCount.Text" xml:space="preserve">
+    <value># of virtual machines:</value>
+  </data>
+  <data name="statusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 473</value>
+  </data>
+  <data name="statusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>684, 22</value>
+  </data>
+  <data name="statusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="statusBar.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Name" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="btnSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 12</value>
+  </data>
+  <data name="btnSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 30</value>
+  </data>
+  <data name="btnSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="btnSettings.ToolTip" xml:space="preserve">
+    <value>Open 86Box Manager settings</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Name" xml:space="preserve">
+    <value>btnSettings</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>79</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>684, 495</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAkAAAAAAAEAIACkTAAAlgAAABAQAAABACAAaAQAADpNAAAUFAAAAQAgALgGAACiUQAAGBgAAAEA
@@ -5050,5 +5643,191 @@
         AP////wAAAAAAAAAAAAAAAD////+AAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////+AAAAAAAAA
         AAAAAAP/////wAAAAAAAAAAAAAAD/w==
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>699, 498</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>86Box Manager</value>
+  </data>
+  <data name="&gt;&gt;clmName.Name" xml:space="preserve">
+    <value>clmName</value>
+  </data>
+  <data name="&gt;&gt;clmName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmStatus.Name" xml:space="preserve">
+    <value>clmStatus</value>
+  </data>
+  <data name="&gt;&gt;clmStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmDesc.Name" xml:space="preserve">
+    <value>clmDesc</value>
+  </data>
+  <data name="&gt;&gt;clmDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmPath.Name" xml:space="preserve">
+    <value>clmPath</value>
+  </data>
+  <data name="&gt;&gt;clmPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startToolStripMenuItem.Name" xml:space="preserve">
+    <value>startToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;startToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configureToolStripMenuItem.Name" xml:space="preserve">
+    <value>configureToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;configureToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pauseToolStripMenuItem.Name" xml:space="preserve">
+    <value>pauseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pauseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resetCTRLALTDELETEToolStripMenuItem.Name" xml:space="preserve">
+    <value>resetCTRLALTDELETEToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;resetCTRLALTDELETEToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hardResetToolStripMenuItem.Name" xml:space="preserve">
+    <value>hardResetToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;hardResetToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;killToolStripMenuItem.Name" xml:space="preserve">
+    <value>killToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;killToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wipeToolStripMenuItem.Name" xml:space="preserve">
+    <value>wipeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;wipeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Name" xml:space="preserve">
+    <value>editToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cloneToolStripMenuItem.Name" xml:space="preserve">
+    <value>cloneToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cloneToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteToolStripMenuItem.Name" xml:space="preserve">
+    <value>deleteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;deleteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFolderToolStripMenuItem.Name" xml:space="preserve">
+    <value>openFolderToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openFolderToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openConfigFileToolStripMenuItem.Name" xml:space="preserve">
+    <value>openConfigFileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openConfigFileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createADesktopShortcutToolStripMenuItem.Name" xml:space="preserve">
+    <value>createADesktopShortcutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;createADesktopShortcutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;img86box.Name" xml:space="preserve">
+    <value>img86box</value>
+  </data>
+  <data name="&gt;&gt;img86box.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgStatus.Name" xml:space="preserve">
+    <value>imgStatus</value>
+  </data>
+  <data name="&gt;&gt;imgStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trayIcon.Name" xml:space="preserve">
+    <value>trayIcon</value>
+  </data>
+  <data name="&gt;&gt;trayIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;open86BoxManagerToolStripMenuItem.Name" xml:space="preserve">
+    <value>open86BoxManagerToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;open86BoxManagerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVMCount.Name" xml:space="preserve">
+    <value>lblVMCount</value>
+  </data>
+  <data name="&gt;&gt;lblVMCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
