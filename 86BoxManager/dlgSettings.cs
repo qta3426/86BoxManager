@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Threading;
 
 namespace _86boxManager
 {
@@ -23,9 +25,9 @@ namespace _86boxManager
 
             lblVersion1.Text = Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 2);
 
-            #if DEBUG
+#if DEBUG
                 lblVersion1.Text += " (Debug)";
-            #endif
+#endif
         }
 
         private void dlgSettings_FormClosing(object sender, FormClosingEventArgs e)
@@ -106,13 +108,13 @@ namespace _86boxManager
                     lbl86BoxVer1.ForeColor = Color.Red;
                 }
             }
-            catch(FileNotFoundException ex)
+            catch (FileNotFoundException ex)
             {
                 lbl86BoxVer1.Text = "86Box.exe not found";
                 lbl86BoxVer1.ForeColor = Color.Gray;
             }
         }
-        
+
         //TODO: Rewrite
         //Save the settings to the registry
         private bool SaveSettings()
@@ -198,6 +200,7 @@ namespace _86boxManager
                     cbxGrid.Checked = false;
                     btnBrowse3.Enabled = false;
                     txtLogPath.Enabled = false;
+                    cbbLocal.SelectedItem = "";
 
                     SaveSettings(); //This will write the default values to the registry
                 }
@@ -214,6 +217,7 @@ namespace _86boxManager
                     cbxGrid.Checked = Convert.ToBoolean(regkey.GetValue("EnableGridLines"));
                     txtLogPath.Enabled = cbxLogging.Checked;
                     btnBrowse3.Enabled = cbxLogging.Checked;
+                    cbbLocal.SelectedItem = cbbLocal.SelectedValue;
                 }
 
                 regkey.Close();
@@ -234,7 +238,7 @@ namespace _86boxManager
             }
         }
 
-// .NET Core implements the better Vista-style folder browse dialog in the stock FolderBrowserDialog
+        // .NET Core implements the better Vista-style folder browse dialog in the stock FolderBrowserDialog
 #if NETCOREAPP
         private void btnBrowse1_Click(object sender, EventArgs e)
         {
@@ -285,7 +289,7 @@ namespace _86boxManager
 
             if (dialog.Show(Handle))
             {
-                txtEXEdir.Text  = dialog.FileName;
+                txtEXEdir.Text = dialog.FileName;
                 if (!txtEXEdir.Text.EndsWith(@"\")) //Just in case
                 {
                     txtEXEdir.Text += @"\";
@@ -362,7 +366,7 @@ namespace _86boxManager
                     cbxMinimize.Checked != Convert.ToBoolean(regkey.GetValue("MinimizeOnVMStart")) ||
                     cbxShowConsole.Checked != Convert.ToBoolean(regkey.GetValue("ShowConsole")) ||
                     cbxMinimizeTray.Checked != Convert.ToBoolean(regkey.GetValue("MinimizeToTray")) ||
-                    cbxCloseTray.Checked != Convert.ToBoolean(regkey.GetValue("CloseToTray")) || 
+                    cbxCloseTray.Checked != Convert.ToBoolean(regkey.GetValue("CloseToTray")) ||
                     cbxLogging.Checked != Convert.ToBoolean(regkey.GetValue("EnableLogging")) ||
                     cbxGrid.Checked != Convert.ToBoolean(regkey.GetValue("EnableGridLines")));
 
@@ -418,6 +422,19 @@ namespace _86boxManager
         {
             lnkGithub.LinkVisited = true;
             Process.Start("https://github.com/86Box/86BoxManager");
+        }
+
+        public void cbbLocal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbbLocal.SelectedIndex == 0)
+            {
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+            }
+            else if (cbbLocal.SelectedIndex == 1)
+            {
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ko");
+            }
+            cbbLocal.Text = cbbLocal.SelectedItem.ToString();
         }
     }
 }
