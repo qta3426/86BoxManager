@@ -127,10 +127,10 @@
     <value>새 가상 머신이나 존재하는 가상 머신 추가</value>
   </data>
   <data name="btnConfigure.Text" xml:space="preserve">
-    <value>구성</value>
+    <value>설정</value>
   </data>
   <data name="btnConfigure.ToolTip" xml:space="preserve">
-    <value>가상 머신의 구성 변경</value>
+    <value>가상 머신 설정 변경</value>
   </data>
   <data name="btnCtrlAltDel.Text" xml:space="preserve">
     <value>C+A+D</value>
