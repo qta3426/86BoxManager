@@ -120,17 +120,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="dlgAddVM.ko.resx">
+      <DependentUpon>dlgAddVM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dlgAddVM.resx">
       <DependentUpon>dlgAddVM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgCloneVM.ko.resx">
+      <DependentUpon>dlgCloneVM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dlgCloneVM.resx">
       <DependentUpon>dlgCloneVM.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dlgEditVM.ko.resx">
+      <DependentUpon>dlgEditVM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dlgEditVM.resx">
       <DependentUpon>dlgEditVM.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dlgSettings.ko.resx">
+      <DependentUpon>dlgSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dlgSettings.resx">
       <DependentUpon>dlgSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.ko.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
