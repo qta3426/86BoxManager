@@ -200,7 +200,6 @@ namespace _86boxManager
                     cbxGrid.Checked = false;
                     btnBrowse3.Enabled = false;
                     txtLogPath.Enabled = false;
-                    cbbLocal.SelectedItem = "";
 
                     SaveSettings(); //This will write the default values to the registry
                 }
@@ -217,7 +216,6 @@ namespace _86boxManager
                     cbxGrid.Checked = Convert.ToBoolean(regkey.GetValue("EnableGridLines"));
                     txtLogPath.Enabled = cbxLogging.Checked;
                     btnBrowse3.Enabled = cbxLogging.Checked;
-                    cbbLocal.SelectedItem = cbbLocal.SelectedValue;
                 }
 
                 regkey.Close();
@@ -422,19 +420,6 @@ namespace _86boxManager
         {
             lnkGithub.LinkVisited = true;
             Process.Start("https://github.com/86Box/86BoxManager");
-        }
-
-        public void cbbLocal_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (cbbLocal.SelectedIndex == 0)
-            {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");
-            }
-            else if (cbbLocal.SelectedIndex == 1)
-            {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ko");
-            }
-            cbbLocal.Text = cbbLocal.SelectedItem.ToString();
         }
     }
 }

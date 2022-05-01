@@ -38,8 +38,6 @@
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.tbcSettings = new System.Windows.Forms.TabControl();
             this.tabGeneral = new System.Windows.Forms.TabPage();
-            this.cbxLocal = new System.Windows.Forms.GroupBox();
-            this.cbbLocal = new System.Windows.Forms.ComboBox();
             this.gbxBehaviour = new System.Windows.Forms.GroupBox();
             this.cbxMinimizeTray = new System.Windows.Forms.CheckBox();
             this.cbxCloseTray = new System.Windows.Forms.CheckBox();
@@ -73,7 +71,6 @@
             this.pnlBottom.SuspendLayout();
             this.tbcSettings.SuspendLayout();
             this.tabGeneral.SuspendLayout();
-            this.cbxLocal.SuspendLayout();
             this.gbxBehaviour.SuspendLayout();
             this.gbxPaths.SuspendLayout();
             this.tabAdvanced.SuspendLayout();
@@ -141,29 +138,11 @@
             // 
             // tabGeneral
             // 
-            this.tabGeneral.Controls.Add(this.cbxLocal);
             this.tabGeneral.Controls.Add(this.gbxBehaviour);
             this.tabGeneral.Controls.Add(this.gbxPaths);
             resources.ApplyResources(this.tabGeneral, "tabGeneral");
             this.tabGeneral.Name = "tabGeneral";
             this.tabGeneral.UseVisualStyleBackColor = true;
-            // 
-            // cbxLocal
-            // 
-            this.cbxLocal.Controls.Add(this.cbbLocal);
-            resources.ApplyResources(this.cbxLocal, "cbxLocal");
-            this.cbxLocal.Name = "cbxLocal";
-            this.cbxLocal.TabStop = false;
-            // 
-            // cbbLocal
-            // 
-            this.cbbLocal.FormattingEnabled = true;
-            this.cbbLocal.Items.AddRange(new object[] {
-            resources.GetString("cbbLocal.Items"),
-            resources.GetString("cbbLocal.Items1")});
-            resources.ApplyResources(this.cbbLocal, "cbbLocal");
-            this.cbbLocal.Name = "cbbLocal";
-            this.cbbLocal.SelectedIndexChanged += new System.EventHandler(this.cbbLocal_SelectedIndexChanged);
             // 
             // gbxBehaviour
             // 
@@ -387,7 +366,6 @@
             this.pnlBottom.ResumeLayout(false);
             this.tbcSettings.ResumeLayout(false);
             this.tabGeneral.ResumeLayout(false);
-            this.cbxLocal.ResumeLayout(false);
             this.gbxBehaviour.ResumeLayout(false);
             this.gbxBehaviour.PerformLayout();
             this.gbxPaths.ResumeLayout(false);
@@ -444,7 +422,5 @@
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.GroupBox cbxLocal;
-        private System.Windows.Forms.ComboBox cbbLocal;
     }
 }
