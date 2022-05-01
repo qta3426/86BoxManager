@@ -147,6 +147,9 @@
   <data name="cbxGrid.Text" xml:space="preserve">
     <value>가상 머신 목록에서 격자 라인 활성화</value>
   </data>
+  <data name="cbxLocal.Text" xml:space="preserve">
+    <value>언어</value>
+  </data>
   <data name="cbxLogging.Text" xml:space="preserve">
     <value>86Box 로그 파일 활성화:</value>
   </data>
@@ -161,6 +164,9 @@
   </data>
   <data name="gbxBehaviour.Text" xml:space="preserve">
     <value>동작</value>
+  </data>
+  <data name="gbxLocal.Text" xml:space="preserve">
+    <value>언어</value>
   </data>
   <data name="gbxLogging.Text" xml:space="preserve">
     <value>로깅</value>

@@ -139,7 +139,7 @@
     <value>6</value>
   </data>
   <data name="cbxOpenCFG.Text" xml:space="preserve">
-    <value>가상 머신 설정 바로하기</value>
+    <value>가상 머신 설정 열기</value>
   </data>
   <data name="&gt;&gt;cbxOpenCFG.Name" xml:space="preserve">
     <value>cbxOpenCFG</value>
@@ -418,7 +418,7 @@
     <value>5</value>
   </data>
   <data name="cbxStartVM.Text" xml:space="preserve">
-    <value>가상 머신 바로 실행하기</value>
+    <value>가상 머신 실행</value>
   </data>
   <data name="&gt;&gt;cbxStartVM.Name" xml:space="preserve">
     <value>cbxStartVM</value>
