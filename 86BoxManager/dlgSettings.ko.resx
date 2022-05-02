@@ -165,7 +165,7 @@
   <data name="gbxBehaviour.Text" xml:space="preserve">
     <value>동작</value>
   </data>
-  <data name="gbxLang" xml:space="preserve">
+  <data name="gbxLang.Text" xml:space="preserve">
     <value>언어</value>
   </data>
   <data name="gbxLogging.Text" xml:space="preserve">
