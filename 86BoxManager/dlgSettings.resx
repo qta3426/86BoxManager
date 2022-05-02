@@ -1238,7 +1238,7 @@ license information and AUTHORS for a list of contributors.</value>
     <value>17, 17</value>
   </metadata>
   <data name="cmbLang.Items" xml:space="preserve">
-    <value>English (영어)</value>
+    <value>English (English)</value>
   </data>
   <data name="cmbLang.Items1" xml:space="preserve">
     <value>Korean (한국어)</value>
@@ -1247,7 +1247,7 @@ license information and AUTHORS for a list of contributors.</value>
     <value>101, 30</value>
   </data>
   <data name="cmbLang.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 25</value>
+    <value>182, 25</value>
   </data>
   <data name="cmbLang.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>

@@ -168,9 +168,6 @@
   <data name="gbxLang" xml:space="preserve">
     <value>언어</value>
   </data>
-  <data name="gbxLocal.Text" xml:space="preserve">
-    <value>언어</value>
-  </data>
   <data name="gbxLogging.Text" xml:space="preserve">
     <value>로깅</value>
   </data>
