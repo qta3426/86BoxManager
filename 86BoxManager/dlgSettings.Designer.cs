@@ -68,6 +68,9 @@
             this.lblDesc = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.cmbLang = new System.Windows.Forms.ComboBox();
+            this.gbxLang = new System.Windows.Forms.GroupBox();
+            this.lblLang = new System.Windows.Forms.Label();
             this.pnlBottom.SuspendLayout();
             this.tbcSettings.SuspendLayout();
             this.tabGeneral.SuspendLayout();
@@ -78,6 +81,7 @@
             this.gbxMisc.SuspendLayout();
             this.tabAbout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
+            this.gbxLang.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnApply
@@ -346,6 +350,29 @@
             resources.ApplyResources(this.lblTitle, "lblTitle");
             this.lblTitle.Name = "lblTitle";
             // 
+            // cmbLang
+            // 
+            this.cmbLang.FormattingEnabled = true;
+            this.cmbLang.Items.AddRange(new object[] {
+            resources.GetString("cmbLang.Items"),
+            resources.GetString("cmbLang.Items1")});
+            resources.ApplyResources(this.cmbLang, "cmbLang");
+            this.cmbLang.Name = "cmbLang";
+            this.cmbLang.SelectedIndexChanged += new System.EventHandler(this.cmbLang_SelectedIndexChanged);
+            // 
+            // gbxLang
+            // 
+            this.gbxLang.Controls.Add(this.lblLang);
+            this.gbxLang.Controls.Add(this.cmbLang);
+            resources.ApplyResources(this.gbxLang, "gbxLang");
+            this.gbxLang.Name = "gbxLang";
+            this.gbxLang.TabStop = false;
+            // 
+            // lblLang
+            // 
+            resources.ApplyResources(this.lblLang, "lblLang");
+            this.lblLang.Name = "lblLang";
+            // 
             // dlgSettings
             // 
             this.AcceptButton = this.btnOK;
@@ -353,6 +380,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnCancel;
+            this.Controls.Add(this.gbxLang);
             this.Controls.Add(this.tbcSettings);
             this.Controls.Add(this.pnlBottom);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -378,6 +406,8 @@
             this.tabAbout.ResumeLayout(false);
             this.tabAbout.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
+            this.gbxLang.ResumeLayout(false);
+            this.gbxLang.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -422,5 +452,8 @@
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.ComboBox cmbLang;
+        private System.Windows.Forms.GroupBox gbxLang;
+        private System.Windows.Forms.Label lblLang;
     }
 }

@@ -120,11 +120,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>가상 머신 수정</value>
   </data>
-  <data name="brnCancel.Text" xml:space="preserve">
-    <value>취소</value>
-  </data>
   <data name="btnApply.Text" xml:space="preserve">
     <value>적용</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>취소</value>
   </data>
   <data name="lblDesc.Text" xml:space="preserve">
     <value>설명:</value>
