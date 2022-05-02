@@ -26,7 +26,7 @@ namespace _86boxManager
             lblVersion1.Text = Application.ProductVersion.Substring(0, Application.ProductVersion.Length - 2);
 
 #if DEBUG
-                lblVersion1.Text += " (Debug)";
+            lblVersion1.Text += " (Debug)";
 #endif
         }
 
@@ -420,6 +420,17 @@ namespace _86boxManager
         {
             lnkGithub.LinkVisited = true;
             Process.Start("https://github.com/86Box/86BoxManager");
+        }
+        private void cmbLang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbLang.SelectedIndex == 0)
+            {
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+            }
+            else if (cmbLang.SelectedIndex == 1)
+            {
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ko");
+            }
         }
     }
 }

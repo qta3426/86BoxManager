@@ -10,6 +10,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace _86boxManager

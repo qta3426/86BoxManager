@@ -165,6 +165,9 @@
   <data name="gbxBehaviour.Text" xml:space="preserve">
     <value>동작</value>
   </data>
+  <data name="gbxLang" xml:space="preserve">
+    <value>언어</value>
+  </data>
   <data name="gbxLocal.Text" xml:space="preserve">
     <value>언어</value>
   </data>
@@ -196,6 +199,9 @@ license information and AUTHORS for a list of contributors.</value>
   </data>
   <data name="lblEXEdir.Text" xml:space="preserve">
     <value>86Box 경로:</value>
+  </data>
+  <data name="lblLang.Text" xml:space="preserve">
+    <value>언어:</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
     <value>86Box Manager</value>

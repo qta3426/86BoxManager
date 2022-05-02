@@ -292,7 +292,7 @@
     <value>Bottom</value>
   </data>
   <data name="pnlBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 284</value>
+    <value>0, 366</value>
   </data>
   <data name="pnlBottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -313,7 +313,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnlBottom.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="cbxMinimizeTray.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -895,7 +895,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>681, 294</value>
+    <value>681, 232</value>
   </data>
   <data name="tabAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1193,7 +1193,7 @@ license information and AUTHORS for a list of contributors.</value>
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>681, 294</value>
+    <value>681, 232</value>
   </data>
   <data name="tabAbout.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1232,11 +1232,89 @@ license information and AUTHORS for a list of contributors.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbcSettings.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="cmbLang.Items" xml:space="preserve">
+    <value>English (영어)</value>
+  </data>
+  <data name="cmbLang.Items1" xml:space="preserve">
+    <value>Korean (한국어)</value>
+  </data>
+  <data name="cmbLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 30</value>
+  </data>
+  <data name="cmbLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 25</value>
+  </data>
+  <data name="cmbLang.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cmbLang.Name" xml:space="preserve">
+    <value>cmbLang</value>
+  </data>
+  <data name="&gt;&gt;cmbLang.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbLang.Parent" xml:space="preserve">
+    <value>gbxLang</value>
+  </data>
+  <data name="&gt;&gt;cmbLang.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLang.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="lblLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 19</value>
+  </data>
+  <data name="lblLang.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblLang.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="&gt;&gt;lblLang.Name" xml:space="preserve">
+    <value>lblLang</value>
+  </data>
+  <data name="&gt;&gt;lblLang.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLang.Parent" xml:space="preserve">
+    <value>gbxLang</value>
+  </data>
+  <data name="&gt;&gt;lblLang.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 280</value>
+  </data>
+  <data name="gbxLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>686, 72</value>
+  </data>
+  <data name="gbxLang.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="gbxLang.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;gbxLang.Name" xml:space="preserve">
+    <value>gbxLang</value>
+  </data>
+  <data name="&gt;&gt;gbxLang.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxLang.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbxLang.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1244,7 +1322,7 @@ license information and AUTHORS for a list of contributors.</value>
     <value>96, 96</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>709, 336</value>
+    <value>709, 418</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10pt</value>
